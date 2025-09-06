@@ -16,4 +16,16 @@
     padding-left: 1rem;
     gap: 10px;
   }
+
+  a {
+    color: var(--white-primary);
+    text-decoration: none;
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-normal);
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
 }
