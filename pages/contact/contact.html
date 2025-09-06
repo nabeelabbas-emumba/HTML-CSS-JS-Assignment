@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Information -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page Title -->
+    <title>HTML & CSS | Assignment</title>
+
+    <!-- External CSS Files -->
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="../../assets/css/layouts/contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JavaScript Files -->
+    <script src="./contact.js"></script>
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header class="site-header" role="header">
+      <nav
+        class="main-navigation"
+        role="navigation"
+        aria-label="Main navigation"
+      >
+        <div class="nav-container">
+          <div class="logo">
+            <a href="index.html" aria-label="Home">
+              <img src="../../assets/images/svgs/logo.svg" alt="Company Logo" />
+            </a>
+          </div>
+
+          <div class="nav-menu-container">
+            <ul class="nav-menu">
+              <li>
+                <a href="../home/home.html" aria-current="page">Home</a>
+              </li>
+              <li><a href="../contact/contact.html">Contact</a></li>
+            </ul>
+
+            <button
+              class="button primary"
+              aria-label="Toggle Book a Table"
+              aria-expanded="false"
+              id="bookTableBtn"
+            >
+              Book a Table
+            </button>
+          </div>
+
+          <div class="menu-icon-container">
+            <img src="../../assets/images/svgs/menu.svg" alt="menu image" />
+          </div>
+        </div>
+      </nav>
+      <div class="header-content">
+        <div>
+          <h1>Contact Us</h1>
+          <div class="pages">
+            <div>Home</div>
+            <div>/</div>
+            <div>Contact</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+      <!-- Contact us -->
+      <section class="contact-section" id="contact">
+        <div class="content">
+          <div class="flex justify-center">
+            <img src="../../assets/images/svgs/horizontal-divider.svg" />
+            <span class="contact-title">Contact Us</span>
+            <img src="../../assets/images/svgs/horizontal-divider.svg" />
+          </div>
+          <div class="title">Contact For Any Query</div>
+          <div class="item-container">
+            <div class="item">
+              <div class="flex">
+                <span class="contact-title">Booking</span>
+                <img src="../../assets/images/svgs/horizontal-divider.svg" />
+              </div>
+              <div class="flex">
+                <img src="../../assets/images/svgs/mail.svg" />
+                <div>booking@example.com</div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="flex">
+                <span class="contact-title">General</span>
+                <img src="../../assets/images/svgs/horizontal-divider.svg" />
+              </div>
+              <div class="flex">
+                <img src="../../assets/images/svgs/mail.svg" />
+                <div>general@example.com</div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="flex">
+                <span class="contact-title">Technical</span>
+                <img src="../../assets/images/svgs/horizontal-divider.svg" />
+              </div>
+              <div class="flex">
+                <img src="../../assets/images/svgs/mail.svg" />
+                <div>technical@example.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map-form-container">
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.1160989292!2d72.74109956885032!3d33.6844201972699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df956d8d8dc65b%3A0xbfc9c33a3bbbc6a2!2sIslamabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v1693054521573!5m2!1sen!2s"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+          <div>
+            <form class="form">
+              <div class="control-container">
+                <input class="control" placeholder="Your Name" />
+                <input type="email" class="control" placeholder="Your Email" />
+              </div>
+              <div class="control-container">
+                <input
+                  type="datetime-local"
+                  class="control"
+                  placeholder="Date & Time"
+                />
+                <input class="control" placeholder="No Of People" />
+              </div>
+              <textarea
+                class="control"
+                cols="5"
+                placeholder="Special request"
+              ></textarea>
+              <button
+                class="button primary w-100"
+                aria-label="Toggle Read More"
+                aria-expanded="false"
+              >
+                Book Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <div>© Your Site Name,All Right Reserved.</div>
+      <div class="flex items-center">
+        <div>Home</div>
+        <div>Contact</div>
+      </div>
+    </footer>
+  </body>
+</html>

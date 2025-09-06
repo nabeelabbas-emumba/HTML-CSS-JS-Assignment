@@ -1,0 +1,64 @@
+input {
+  height: 56px;
+  border-radius: var(--form-input-border-radius);
+  border: 1px solid var(--form-control-border-color);
+}
+
+textarea {
+  height: 98px;
+  border-radius: var(--form-input-border-radius);
+  border: 1px solid var(--form-control-border-color);
+}
+
+input::-webkit-input-placeholder {
+  padding-left: var(--form-placeholder-padding);
+}
+
+/* Firefox */
+input::-moz-placeholder {
+  padding-left: var(--form-placeholder-padding);
+}
+
+/* IE 10-11 */
+input:-ms-input-placeholder {
+  padding-left: var(--form-placeholder-padding);
+}
+
+/* Legacy Edge */
+input::-ms-input-placeholder {
+  padding-left: var(--form-placeholder-padding);
+}
+
+/* Standard */
+input::placeholder {
+  padding-left: var(--form-placeholder-padding);
+}
+
+textarea::-webkit-input-placeholder {
+  padding-top: var(--form-placeholder-padding);
+  padding-left: var(--form-placeholder-padding);
+}
+
+/* Firefox */
+textarea::-moz-placeholder {
+  padding-top: var(--form-placeholder-padding);
+  padding-left: var(--form-placeholder-padding);
+}
+
+/* IE 10-11 */
+textarea:-ms-input-placeholder {
+  padding-top: var(--form-placeholder-padding);
+  padding-left: var(--form-placeholder-padding);
+}
+
+/* Legacy Edge */
+textarea::-ms-input-placeholder {
+  padding-top: var(--form-placeholder-padding);
+  padding-left: var(--form-placeholder-padding);
+}
+
+/* Standard */
+textarea::placeholder {
+  padding-top: var(--form-placeholder-padding);
+  padding-left: var(--form-placeholder-padding);
+}

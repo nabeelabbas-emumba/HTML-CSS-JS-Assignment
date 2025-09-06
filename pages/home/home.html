@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Information -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page Title -->
+    <title>HTML & CSS | Assignment</title>
+
+    <!-- External CSS Files -->
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="../../assets/css/layouts/home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JavaScript Files -->
+    <script src="./home.js"></script>
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header class="site-header" role="header">
+      <nav
+        class="main-navigation"
+        role="navigation"
+        aria-label="Main navigation"
+      >
+        <div class="nav-container">
+          <div class="logo">
+            <a href="index.html" aria-label="Home">
+              <img src="../../assets/images/svgs/logo.svg" alt="Company Logo" />
+            </a>
+          </div>
+
+          <div class="nav-menu-container">
+            <ul class="nav-menu">
+              <li>
+                <a id="homeBtn" aria-current="page">Home</a>
+              </li>
+              <li><a href="../contact/contact.html">Contact</a></li>
+            </ul>
+
+            <button
+              class="button primary"
+              aria-label="Toggle Book a Table"
+              aria-expanded="false"
+              id="bookTableBtn1"
+            >
+              Book a Table
+            </button>
+          </div>
+
+          <div class="menu-icon-container">
+            <img src="../../assets/images/svgs/menu.svg" alt="menu image" />
+          </div>
+        </div>
+      </nav>
+      <div class="header-content">
+        <div class="content">
+          <div>
+            <h1>Enjoy Our</h1>
+            <h1>Delicious Meal</h1>
+            <h1></h1>
+            <p>
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+              lorem sit clita duo justo magna dolore erat amet
+            </p>
+            <button
+              type="button"
+              class="button primary"
+              aria-label="Toggle Book a Table"
+              aria-expanded="false"
+              id="bookTableBtn"
+            >
+              Book a Table
+            </button>
+          </div>
+          <div>
+            <img src="../../assets/images/header.png" alt="header-image" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+      <button id="scrollTopBtn" class="button primary scroll-top">⬆ Top</button>
+
+      <!-- Features -->
+      <section class="features-section" id="features">
+        <div class="card selected">
+          <img
+            class="icon"
+            src="../../assets/images/svgs/chef-primary.svg"
+            alt="card-icon"
+          />
+          <img
+            class="hovered"
+            src="../../assets/images/svgs/chef-white.svg"
+            alt="card-icon"
+          />
+          <h1 class="title">Master Chefs</h1>
+          <p class="description">
+            Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
+            diam
+          </p>
+        </div>
+        <div class="card selected">
+          <img
+            class="icon"
+            src="../../assets/images/svgs/fork-knife.svg"
+            alt="card-icon"
+          />
+          <img
+            class="hovered"
+            src="../../assets/images/svgs/fork-knife-white.svg"
+            alt="card-icon"
+          />
+          <h1 class="title">Quality Food</h1>
+          <p class="description">
+            Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
+            diam
+          </p>
+        </div>
+        <div class="card selected">
+          <img
+            class="icon"
+            src="../../assets/images/svgs/order-cart.svg"
+            alt="card-icon"
+          />
+          <img
+            class="hovered"
+            src="../../assets/images/svgs/order-cart-white.svg"
+            alt="card-icon"
+          />
+          <h1 class="title">24/7 Service</h1>
+          <p class="description">
+            Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
+            diam
+          </p>
+        </div>
+        <div class="card selected">
+          <img
+            class="icon"
+            src="../../assets/images/svgs/service.svg"
+            alt="card-icon"
+          />
+          <img
+            class="hovered"
+            src="../../assets/images/svgs/service-white.svg"
+            alt="card-icon"
+          />
+          <h1 class="title">Master Chefs</h1>
+          <p class="description">
+            Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
+            diam
+          </p>
+        </div>
+      </section>
+
+      <!-- About us -->
+      <section class="about-us-section" id="about">
+        <div class="image-container">
+          <img src="../../assets/images/about-us.png" alt="about-us" />
+        </div>
+        <div class="content">
+          <div class="flex">
+            <span>about us</span>
+            <img src="../../assets/images/svgs/horizontal-divider.svg" />
+          </div>
+          <div class="">
+            Welcome to
+            <img
+              src="../../assets/images/svgs/fork-knife.svg"
+              alt="fork-&-knife-icon"
+            />
+            Restoran
+          </div>
+          <p>
+            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+            diam ametdiam et eos erat ipsum et lorem et sit, sed stet lorem sit.
+          </p>
+          <p>
+            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+            diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+            lorem sit clita duo justo magna dolore erat amet
+          </p>
+          <div class="info-container">
+            <div class="info-item">
+              <span>13</span>
+              <div class="info-label">
+                <span>Years of</span>
+                <span>Experience</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <span>50</span>
+              <div class="info-label">
+                <span>Popular</span>
+                <span>Master Chefs</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button
+              class="button primary"
+              aria-label="Toggle Read More"
+              aria-expanded="false"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Specialities section -->
+      <section class="specialities-section" id="specialities">
+        <div class="nav">
+          <div class="flex">
+            <img src="../../assets/images/svgs/horizontal-divider.svg" />
+            <span>Food Menu</span>
+            <img src="../../assets/images/svgs/horizontal-divider.svg" />
+          </div>
+          <div class="title">Most Popular Items</div>
+          <div class="items-list">
+            <div class="item selected">
+              <img src="../../assets/images/svgs/cup.svg" alt="cup image" />
+              <div class="info">
+                <div class="text-normal">Popular</div>
+                <div class="text-bold">Breakfast</div>
+              </div>
+            </div>
+            <div class="item">
+              <img
+                src="../../assets/images/svgs/burger.svg"
+                alt="burger image"
+              />
+              <div class="info">
+                <div class="text-normal">Special</div>
+                <div class="text-bold">Lunch</div>
+              </div>
+            </div>
+            <div class="item">
+              <img
+                src="../../assets/images/svgs/small-fork-knife.svg"
+                alt="fork and knife image"
+              />
+              <div class="info">
+                <div class="text-normal">Lovely</div>
+                <div class="text-bold">Dinner</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-container">
+          <div class="w-50">
+            <div class="menu-item">
+              <div class="item-container">
+                <img class="image" src="../../assets/images/image-1.jpg" />
+                <div class="item-content">
+                  <div class="headings">
+                    <div class="flex justify-between">
+                      <div class="title">Chicken Burger</div>
+                      <div class="price">115$</div>
+                    </div>
+                    <div class="sub-title">
+                      Ipsum ipsum clita erat amet dolor justo diam
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="item-container">
+                <img class="image" src="../../assets/images/image-4.jpg" />
+                <div class="item-content">
+                  <div class="headings">
+                    <div class="flex justify-between">
+                      <div class="title">Chicken Burger</div>
+                      <div class="price">115$</div>
+                    </div>
+                    <div class="sub-title">
+                      Ipsum ipsum clita erat amet dolor justo diam
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="item-container">
+                <img class="image" src="../../assets/images/image-3.jpg" />
+                <div class="item-content">
+                  <div class="headings">
+                    <div class="flex justify-between">
+                      <div class="title">Chicken Burger</div>
+                      <div class="price">115$</div>
+                    </div>
+                    <div class="sub-title">
+                      Ipsum ipsum clita erat amet dolor justo diam
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="item-container">
+                <img class="image" src="../../assets/images/image-2.jpg" />
+                <div class="item-content">
+                  <div class="headings">
+                    <div class="flex justify-between">
+                      <div class="title">Chicken Burger</div>
+                      <div class="price">115$</div>
+                    </div>
+                    <div class="sub-title">
+                      Ipsum ipsum clita erat amet dolor justo diam
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-50">
+            <div class="menu-item">
+              <div class="item-container">
+                <img class="image" src="../../assets/images/image-5.jpg" />
+                <div class="item-content">
+                  <div class="headings">
+                    <div class="flex justify-between">
+                      <div class="title">Chicken Burger</div>
+                      <div class="price">115$</div>
+                    </div>
+                    <div class="sub-title">
+                      Ipsum ipsum clita erat amet dolor justo diam
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="item-container">
+                <img class="image" src="../../assets/images/image-1.jpg" />
+                <div class="item-content">
+                  <div class="headings">
+                    <div class="flex justify-between">
+                      <div class="title">Chicken Burger</div>
+                      <div class="price">115$</div>
+                    </div>
+                    <div class="sub-title">
+                      Ipsum ipsum clita erat amet dolor justo diam
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="item-container">
+                <img class="image" src="../../assets/images/image-5.jpg" />
+                <div class="item-content">
+                  <div class="headings">
+                    <div class="flex justify-between">
+                      <div class="title">Chicken Burger</div>
+                      <div class="price">115$</div>
+                    </div>
+                    <div class="sub-title">
+                      Ipsum ipsum clita erat amet dolor justo diam
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="item-container">
+                <img class="image" src="../../assets/images/image-8.jpg" />
+                <div class="item-content">
+                  <div class="headings">
+                    <div class="flex justify-between">
+                      <div class="title">Chicken Burger</div>
+                      <div class="price">115$</div>
+                    </div>
+                    <div class="sub-title">
+                      Ipsum ipsum clita erat amet dolor justo diam
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Reservation Section -->
+      <div class="reservation-container" id="reservation">
+        <img class="image" src="../../assets/images/reservation.png" />
+        <div class="form-container">
+          <div class="flex">
+            <span class="title">Reservation</span>
+            <img src="../../assets/images/svgs/horizontal-divider.svg" />
+          </div>
+          <h1 class="heading">Book A Table Online</h1>
+          <form class="form">
+            <div class="control-container">
+              <input class="control" placeholder="Your Name" />
+              <input type="email" class="control" placeholder="Your Email" />
+            </div>
+            <div class="control-container">
+              <input
+                type="datetime-local"
+                class="control"
+                placeholder="Date & Time"
+              />
+              <input class="control" placeholder="No Of People" />
+            </div>
+            <textarea
+              class="control"
+              cols="5"
+              placeholder="Special request"
+            ></textarea>
+            <button
+              class="button primary w-100"
+              aria-label="Toggle Read More"
+              aria-expanded="false"
+            >
+              Book Now
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Members Section -->
+      <section class="members-section" id="members">
+        <div class="nav">
+          <div class="flex">
+            <img src="../../assets/images/svgs/horizontal-divider.svg" />
+            <span>Team Members</span>
+            <img src="../../assets/images/svgs/horizontal-divider.svg" />
+          </div>
+          <div class="title">Our Master Chefs</div>
+        </div>
+        <div class="cards-container">
+          <div class="card">
+            <img
+              class="avatar"
+              src="../../assets/images/chef-1.png"
+              alt="card-icon"
+            />
+            <div>
+              <h1 class="title">Full Name</h1>
+              <p class="description">Designation</p>
+              <div class="social-icons">
+                <img src="../../assets/images/svgs/facebook.svg" />
+                <img src="../../assets/images/svgs/twitter.svg" />
+                <img src="../../assets/images/svgs/instagram.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="avatar"
+              src="../../assets/images/chef-2.png"
+              alt="card-icon"
+            />
+            <div>
+              <h1 class="title">Full Name</h1>
+              <p class="description">Designation</p>
+              <div class="social-icons">
+                <img src="../../assets/images/svgs/facebook.svg" />
+                <img src="../../assets/images/svgs/twitter.svg" />
+                <img src="../../assets/images/svgs/instagram.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="avatar"
+              src="../../assets/images/chef-3.png"
+              alt="card-icon"
+            />
+            <div>
+              <h1 class="title">Full Name</h1>
+              <p class="description">Designation</p>
+              <div class="social-icons">
+                <img src="../../assets/images/svgs/facebook.svg" />
+                <img src="../../assets/images/svgs/twitter.svg" />
+                <img src="../../assets/images/svgs/instagram.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="avatar"
+              src="../../assets/images/chef-4.png"
+              alt="card-icon"
+            />
+            <div>
+              <h1 class="title">Full Name</h1>
+              <p class="description">Designation</p>
+              <div class="social-icons">
+                <img src="../../assets/images/svgs/facebook.svg" />
+                <img src="../../assets/images/svgs/twitter.svg" />
+                <img src="../../assets/images/svgs/instagram.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feedback Section -->
+      <section class="feedback-section" id="feedback">
+        <div class="nav">
+          <div class="flex">
+            <img src="../../assets/images/svgs/horizontal-divider.svg" />
+            <span>Testimonial</span>
+            <img src="../../assets/images/svgs/horizontal-divider.svg" />
+          </div>
+          <div class="title">Our Clients Say!!!</div>
+        </div>
+        <div class="cards-container">
+          <div class="card">
+            <img
+              class="icon"
+              src="../../assets/images/svgs/commas.svg"
+              alt="card-icon"
+            />
+            <img
+              class="hovered"
+              src="../../assets/images/svgs/selected-commas.svg"
+              alt="card-icon"
+            />
+            <div class="content">
+              <p class="description">
+                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
+                stet amet eirmod eos labore diam
+              </p>
+              <div class="client">
+                <img class="image" src="../../assets/images/client-1.png" />
+                <div>
+                  <h1 class="title">Client Name</h1>
+                  <p class="description">Profession</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="icon"
+              src="../../assets/images/svgs/commas.svg"
+              alt="card-icon"
+            />
+            <img
+              class="hovered"
+              src="../../assets/images/svgs/selected-commas.svg"
+              alt="card-icon"
+            />
+            <div class="content">
+              <p class="description">
+                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
+                stet amet eirmod eos labore diam
+              </p>
+              <div class="client">
+                <img class="image" src="../../assets/images/client-2.png" />
+                <div>
+                  <h1 class="title">Client Name</h1>
+                  <p class="description">Profession</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="icon"
+              src="../../assets/images/svgs/commas.svg"
+              alt="card-icon"
+            />
+            <img
+              class="hovered"
+              src="../../assets/images/svgs/selected-commas.svg"
+              alt="card-icon"
+            />
+            <div class="content">
+              <p class="description">
+                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
+                stet amet eirmod eos labore diam
+              </p>
+              <div class="client">
+                <img class="image" src="../../assets/images/client-3.png" />
+                <div>
+                  <h1 class="title">Client Name</h1>
+                  <p class="description">Profession</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <div>© Your Site Name,All Right Reserved.</div>
+      <div class="flex items-center">
+        <div>Home</div>
+        <div>Contact</div>
+      </div>
+    </footer>
+  </body>
+</html>

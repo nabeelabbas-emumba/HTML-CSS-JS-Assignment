@@ -1,0 +1,19 @@
+.footer {
+  height: 70px;
+  background-color: var(--footer-bg-color);
+  color: var(--white-primary);
+  padding: 0 var(--horizontal-padding);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  @media (max-width: 568px) {
+    justify-content: center;
+  }
+
+  & .flex {
+    padding-left: 1rem;
+    gap: 10px;
+  }
+}

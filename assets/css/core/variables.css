@@ -1,0 +1,84 @@
+:root {
+  --border-color: rgba(222, 226, 230, 1);
+
+  --site-header-bg: rgba(15, 23, 43, 0.9);
+
+  --white-primary: rgba(255, 255, 255, 1);
+  --white-secondary: rgba(245, 245, 245, 1);
+
+  --light-blue-secondary: rgb(241, 248, 255);
+
+  --horizontal-padding: 10rem;
+  --vertical-padding: 5rem;
+
+  --primary-color: rgba(254, 161, 22, 1);
+  --secondary-color: #2c3e50;
+  --accent-color: #e74c3c;
+  --success-color: #27ae60;
+  --warning-color: #f39c12;
+  --danger-color: #e74c3c;
+
+  --header-height: 80px;
+
+  --primary-dark-color: rgba(15, 23, 43, 1);
+  --secondary-dark-color: rgba(102, 101, 101, 1);
+
+  --font-family-primary: "Poppins", sans-serif;
+  --font-family-secondary: pacifico, cursive;
+
+  --footer-bg-color: rgba(39, 47, 65, 1);
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-md: 18px;
+  --font-size-lg: 20px;
+  --font-size-xl: 22px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 26px;
+  --font-size-4xl: 28px;
+  --font-size-5xl: 30px;
+  --font-size-6xl: 32px;
+  --font-size-7xl: 40px;
+  --font-size-8xl: 48px;
+  --font-size-12xl: 62px;
+
+  --font-weight-thin: 100;
+  --font-weight-extralight: 200;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+
+  --form-placeholder-padding: 10px;
+  --form-input-border-radius: 2px;
+  --form-control-border-color: rgba(206, 212, 218, 1);
+}
+
+@media (max-width: 992px) {
+  :root {
+    --horizontal-padding: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --horizontal-padding: 4rem;
+    --font-size-12xl: 38px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --horizontal-padding: 1rem;
+  }
+
+  @media (max-width: 280px) {
+    :root {
+      --horizontal-padding: 6px;
+    }
+  }
+}

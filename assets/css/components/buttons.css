@@ -1,0 +1,15 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 2px;
+  border: unset;
+  font-size: var(--font-size-base);
+  cursor: pointer;
+}
+
+.primary {
+  background-color: var(--primary-color);
+  color: var(--white-primary);
+}
