@@ -1,5 +1,5 @@
 .scroll-top {
-  display: none; /* hidden initially */
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -79,6 +79,8 @@
       }
 
       & div:nth-child(2) {
+        position: relative;
+        overflow: hidden;
         & img {
           width: 100%;
           height: auto;

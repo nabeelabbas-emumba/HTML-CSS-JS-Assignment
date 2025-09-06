@@ -65,7 +65,7 @@
 }
 
 @media (max-width: 768px) {
-  :root {
+  s :root {
     --horizontal-padding: 4rem;
     --font-size-12xl: 38px;
   }
